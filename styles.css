@@ -68,7 +68,7 @@ hr {
     transition: 500ms;
 }
 
-.nav-container button {
+button {
     padding: 0.5rem 1.5rem;
     border: #fff solid 1px;
     border-radius: 3px;
@@ -77,7 +77,7 @@ hr {
     transition: 500ms;
 }
 
-.nav-container button:hover {
+button:hover {
     border: rgb(239, 1, 1) solid 1px;
     color: rgba(5, 193, 226, 0.798);
 }
@@ -204,7 +204,7 @@ hr {
     width: 0px;
 	height: 0px;
 	box-shadow: 0px 0px 2px 1px black;
-	transition: all ease-in-out 0.3s;
+	transition: all ease-in-out 500ms;
     overflow: hidden;
     display: flex;
     flex-direction: column;
