@@ -214,6 +214,7 @@ header {
 .single-feature {
     display: flex;
     gap: 2rem;
+    align-items: center;
 }
 
 .single-feature-icon {
@@ -226,13 +227,16 @@ header {
     height: 50px;
     box-shadow: 0 0 0 2px #fff;
     fill: #e33333;
+    transition: ease-in-out 200ms;
 }
 
-.single-feature-icon:hover {
-    background-color: #e33333;
-    fill: #fff;
-    border: 2px solid #fff;
-    box-shadow: 0 0 0 2px #e33333;
+.single-feature:hover {
+    .single-feature-icon {
+        background-color: #e33333;
+        fill: #fff;
+        border: 2px solid #fff;
+        box-shadow: 0 0 0 2px #e33333;
+    }
 }
 
 .single-feature-name h2{
