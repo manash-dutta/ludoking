@@ -10,7 +10,7 @@
 }
 
 html {
-    font-size: 13px;
+    font-size: 15px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     /* -webkit-text-size-adjust: 100%; */
@@ -198,6 +198,7 @@ header {
     gap: 2rem;
     margin: 1rem;
     align-items: flex-end;
+    justify-content: space-evenly;
 }
 
 .features-right {
@@ -207,11 +208,11 @@ header {
     gap: 2rem;
     margin: 1rem;
     align-items: flex-start;
+    justify-content: space-evenly;
 }
 
 .single-feature {
     display: flex;
-    /* justify-content: flex-end; */
     gap: 2rem;
 }
 
@@ -234,17 +235,68 @@ header {
     box-shadow: 0 0 0 2px #e33333;
 }
 
-.single-feature-name h3{
+.single-feature-name h2{
     color: #e33333;
 }
 
-.iphone-case {
+.iphone-case-container {
     position: relative;
-    background-image: url(./assets/img/iphone-holder.png);
+    min-width: 300px;
     height: 526px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iphone-case {
+    background-image: url(./assets/img/iphone-holder.png);
+    height: inherit;
     width: 300px;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center;
+    position: relative;
+}
+
+.iphone-inner {
+    overflow: hidden;
+    width: 203px;
+    position: absolute;
+    top: 53px;
+    left: 44px;
+    display: flex;
+}
+
+.iphone-inner img{
+    animation: slide 15s infinite;
+    min-width: 203px;
+    height: 375px;
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
 }
 
 @media (max-width: 992px) {
