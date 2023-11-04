@@ -1,6 +1,5 @@
 /* FONT IMPORT */
-@import url(https://fonts.googleapis.com/css?family=Poppins:400,700,600,500,300);
-@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@0;1&display=swap');
 
   /* GLOBAL STYLES */
 * {
@@ -11,7 +10,7 @@
 
 html {
     font-size: 15px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Tiro Devanagari Hindi', serif;
     font-weight: 400;
     /* -webkit-text-size-adjust: 100%; */
 }
