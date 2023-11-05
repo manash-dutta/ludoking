@@ -28,7 +28,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5rem;
+    gap: 3rem;
     padding-block: 3rem;
 }
 
@@ -63,8 +63,8 @@ hr {
 }
 
 .a-list-style:hover {
-    color: rgba(5, 193, 226, 0.798);
-    border-bottom: rgb(239, 1, 1) solid 1px;
+    color: #05c1e2cb;
+    border-bottom: #ef0101 solid 1px;
     transition: 500ms;
 }
 
@@ -78,8 +78,8 @@ button {
 }
 
 button:hover {
-    border: rgb(239, 1, 1) solid 1px;
-    color: rgba(5, 193, 226, 0.798);
+    border: #ef0101 solid 1px;
+    color: #05c1e2cb;
 }
 
 #navbar {
@@ -171,7 +171,7 @@ button:hover {
     height: var(--height);
     width: var(--height);
     background: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 10px #00000040;
     border-radius: var(--border-radius);
     transition: transform 0.2s;
 }
@@ -493,22 +493,22 @@ header {
 #contact-us {
     background-color: #333333;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    align-items: center;
-    justify-content: center;
-    padding-block: 2 rem;
-    padding-top: 25px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* gap: 2rem; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* padding-block: 2rem; */
+    /* padding-top: 25px; */
 }
 
 .social-icons {
     display: flex;
     gap: 2rem;
-    padding: 20px;
-    border-radius: 50%;
+    /* padding: 20px; */
+    /* border-radius: 50%; */
 }
 
-.social-icons span {
+/* .social-icons span {
     display: flex;
-}
+} */
