@@ -10,10 +10,9 @@
 }
 
 html {
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    /* -webkit-text-size-adjust: 100%; */
 }
 
 .fc-lg {
@@ -258,8 +257,61 @@ header {
 
 #intro {
     background-color: #E5B32D;
-    height: 100vh;
+    padding: 5vw;
+
 }
+
+.intro-inner {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-img {
+    display: flex;
+    justify-content: center;
+    flex-basis: 50vw;
+    height: fit-content;
+}
+
+.intro-description {
+    flex-basis: 50vw;
+}
+
+.intro-description h2 {
+    font-size: 1.75rem;
+}
+
+.intro-description p {
+    line-height: 2;
+}
+
+.intro-description ul {
+    margin: 2rem;
+    line-height: 2;
+    font-weight: 700;
+    color: #555;
+}
+
+.intro-description p {
+    color: #fff;
+}
+
+.playnow {
+    text-align: center;
+}
+
+.playnow img {
+    margin: 1rem 6rem;
+}
+
+@media (max-width: 992px) {
+    .intro-inner {
+        flex-direction: column;
+    }
+}
+
 
 /* FEATURES SECTION */
 
