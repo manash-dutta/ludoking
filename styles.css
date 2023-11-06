@@ -24,6 +24,11 @@ html {
     color: #fff;
 }
 
+.a-style {
+    text-decoration: none;
+    color: #fff;
+}
+
 .section-container {
     display: flex;
     flex-direction: column;
@@ -44,7 +49,7 @@ hr {
 
 .seperator {
     border-top: 1px solid red;
-    width: 20rem;
+    width: 50%;
     margin: 1rem auto;
     height: 0;
 }
@@ -493,22 +498,30 @@ header {
 #contact-us {
     background-color: #333333;
     text-align: center;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* gap: 2rem; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* padding-block: 2rem; */
-    /* padding-top: 25px; */
 }
 
 .social-icons {
     display: flex;
-    gap: 2rem;
-    /* padding: 20px; */
-    /* border-radius: 50%; */
+    gap: 1rem;
 }
 
-/* .social-icons span {
-    display: flex;
-} */
+.social-icons a {
+    fill: #fff;
+}
+
+.facebook:hover {
+    fill: #0765FF;
+}
+
+.twitter:hover {
+    fill: #00acee;
+}
+
+.instagram:hover {
+    fill: #e44058;
+}
+
+.youtube:hover {
+    fill: #FF0000;
+}
+
