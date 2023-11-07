@@ -424,7 +424,39 @@ header {
 
 #inventory {
     background-color: #DCE1E6;
-    height: 100vh;
+    height: auto;
+}
+
+.youtube-video-outer {
+    width: 55vw;
+}
+
+.youtube-video-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.youtube-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 992px) {
+    .youtube-video-outer {
+        width: 70vw;
+    }
+}
+@media (max-width: 600px) {
+    .youtube-video-outer {
+        width: 90vw;
+    }
 }
 
 /* SCREENSHOTS SECTION */
