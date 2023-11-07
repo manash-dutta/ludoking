@@ -95,10 +95,10 @@
         transform: translateX(-2583px);
     }
     80% {
-      transform: translateX(2870);
+      transform: translateX(-2870px);
     }
     90% {
-      transform: translateX(2870);
+      transform: translateX(-2870px);
     }
     100% {
       transform: translateX(0);
