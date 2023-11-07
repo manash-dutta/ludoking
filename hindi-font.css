@@ -6,6 +6,10 @@ html {
     font-weight: 400;
 }
 
+.a-list-style {
+    font-size: 1rem;
+}
+
 
 /* Adding Media Queries to adjust font size for tablets and mobiles */
 
