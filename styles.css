@@ -548,6 +548,20 @@ header {
     background-color: #AB5CE8;
     height: 100vh;
 }
+.img-container {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.two-images{
+    display: flex;
+    gap: o.5rem;
+}
+.img-container img {
+    width: 12rem;
+}
 
 /* CONTACT US SECTION */
 
