@@ -125,8 +125,13 @@ button:hover {
     padding: 5px 10px;
 }
 
-
 @media (max-width: 1200px) {
+        .a-list-style {
+            padding: 0.75rem 0.35rem;
+        }
+}
+
+@media (max-width: 1024px) {
     #navbar {
         visibility: hidden;
     }
@@ -191,7 +196,7 @@ button:hover {
     transform: translateX(var(--height));
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
     .toggler {
         top: 17px;
         right: 50px;
